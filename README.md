@@ -1,10 +1,9 @@
 # Documentation- Fibonacci function in Recursive and Iterative fashion. 
 
 import java.util.Scanner;
-
 public class Fibonacci {
-	
 	//Recursive method
+	
 	int fibRecursive(int x) {
 		
 		//If x is in the 0th or 1st place return n
@@ -25,8 +24,10 @@ public class Fibonacci {
 			prevFib = temp;
 		}
 	return fib;
-}
-	//Print out Time
+	}
+	
+//Print out Time
+	
 	public static void showTime() {
 		
 		long startTime = System.nanoTime();
@@ -49,11 +50,12 @@ public class Fibonacci {
 		startTime = System.nanoTime();
 		System.out.println(fib.fibRecursive(n));
 		System.out.println("time = " + (System.nanoTime() - startTime) + " nanosecs.");
-}
+		}
 	private char[] fibIterative1(int n) {
 		return null;
 	}
 	private static int fibRecursive1(int i) {
 		return 0;
+		}
 	}
-}
+

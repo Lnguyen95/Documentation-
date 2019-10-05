@@ -1,7 +1,9 @@
 # Documentation- Fibonacci function in Recursive and Iterative fashion. 
 
 import java.util.Scanner;
+
 public class Fibonacci {
+	
 	//Recursive method
 	
 	int fibRecursive(int x) {

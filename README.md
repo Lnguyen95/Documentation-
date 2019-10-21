@@ -1,8 +1,13 @@
-# Documentation- Fibonacci function in Recursive and Iterative fashion. 
+# Documentation- 
+Fibonacci function in Recursive and Iterative fashion. 
 
-import java.util.Scanner;
+	Author: Luc Nguyen
+    	Class: CEN 3024C
+    	Profesor: Gossai
+	
+	import java.util.Scanner;
 
-public class Fibonacci {
+	public class Fibonacci {
 	
 	//Recursive method
 	
@@ -28,7 +33,7 @@ public class Fibonacci {
 	return fib;
 	}
 	
-//Print out Time
+	//Print out Time
 	
 	public static void showTime() {
 		

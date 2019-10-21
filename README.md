@@ -3,7 +3,7 @@ Fibonacci function in Recursive and Iterative fashion.
 
 	Author: Luc Nguyen
 	Class: CEN 3024C
-    	Profesor: Gossai
+	Profesor: Gossai
 	
 	import java.util.Scanner;
 
